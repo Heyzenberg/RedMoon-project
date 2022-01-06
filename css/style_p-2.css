@@ -1,0 +1,225 @@
+.container{
+    margin: 0 auto;
+    width: 1600px;
+}
+.section_heading{
+    margin: 0 auto;
+    width: 600px;
+    text-align: center;
+}
+h1{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 75px;
+    font-weight: 700;
+    color: white;
+}
+h2{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+    text-shadow: 3px 3px 4px black;
+}
+h3{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+}
+p{
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+.line{
+    content: "";
+    height: 3px;
+    width: 100%;
+    background-color: rgb(66, 15, 15);
+    display: inline-block;
+}
+.line_bold{
+    content: "";
+    height: 40px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(66, 15, 15);
+    display: inline-block;
+}
+.title_red{
+    color: rgb(116, 1, 1);
+}
+.title_white{
+    color: rgb(255, 255, 255);
+}
+span{
+    font-weight: 500;
+    color: rgb(189, 189, 189);
+}
+.text_center{
+    text-align: center;
+}
+
+/* Navigation bar */
+.top{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(../images/RedMoon_title_bg.jpg);
+}
+.nav_bar{
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 80px;
+}
+.logo img{
+    width: 150px;
+}
+.nav_list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    align-items: center;
+}
+.nav_stack{
+    margin-left: 40px;
+    display: inline-block;
+    align-items: center;
+}
+.nav_item{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    transition: 540ms;
+}
+.nav_item:hover{
+    box-shadow: 0 0 5px 2px rgb(207, 20, 20);
+}
+.login_btn{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 40px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+    background-color: rgb(66, 15, 15);
+    border: none;
+    border-radius: 20px;
+    transition: 540ms;
+}
+.login_btn:hover{
+    box-shadow: 0 0 5px 2px rgb(207, 20, 20);
+}
+.login_btn:active{
+    box-shadow: 0 0 5px 2px rgb(126, 43, 43);
+    background-color: rgb(29, 6, 6);
+    transform: scale(0.9);
+}
+
+/* Log In */
+
+.login{
+    background-color: #202020;
+}
+.bg{
+    background-color: #202020;
+}
+.login_btn{
+    padding-left: 53px;
+    padding-right: 53px;
+}
+.login_txt{
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+}
+.form{
+    text-align: center;
+}
+.myAccount{
+    padding-bottom: 150px;
+
+}
+.enter_account{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 150px;
+}
+.inputMyAccount{
+    height: 44px;
+    width: 300px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    border: none;
+    outline: 2px solid rgb(66, 15, 15);
+    margin: 15px;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    box-shadow: 0 7px 15px rgb(17, 17, 17);
+    transition: 540ms;
+}
+.inputMyAccount:focus{
+    background-color: rgb(212, 146, 146);
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: 0 7px 15px rgb(119, 23, 23);
+}
+.inputMyAccount::placeholder{
+    color: rgb(177, 177, 177);
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    opacity: 0.7;
+}
+.btn_ok{
+    height: 60px;
+    width: 250px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: none;
+    outline: 2px solid #e6e6e6;
+    margin: 45px;
+    font-family: "Raleway",sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    box-shadow: 0 5px 16px rgb(0, 0, 0);
+    background-color: rgb(66, 15, 15);
+    color: white;
+    transition: 540ms;
+}
+.btn_ok:hover{
+    background-color: rgb(94, 22, 22);
+    outline: 2px solid #dd8d8d;
+    box-shadow: 0 5px 16px rgb(207, 20, 20);
+}
+.btn_ok:active{
+    background-color: rgb(66, 15, 15);
+    box-shadow: 0 5px 16px rgb(207, 20, 20);
+    transform: scale(0.9);
+}
